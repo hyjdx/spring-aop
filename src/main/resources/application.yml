@@ -16,5 +16,5 @@ spring:
         password: sa
         driverClassName: org.h2.Driver
     aop:
-    auto: true
-    proxy-target-class: true
+        auto: true
+        proxy-target-class: true
