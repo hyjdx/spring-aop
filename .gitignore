@@ -10,5 +10,5 @@ target/
 .classpath
 .project
 
-# jrebel #
-src/main/resources/rebel.xml
+# other #
+logs

@@ -5,4 +5,5 @@ package com.benny.study.service;
  */
 public interface Some {
     void doSome();
+    void doSome1();
 }
