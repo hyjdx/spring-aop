@@ -1,6 +1,6 @@
 package com.benny.study.aop;
  
-import com.benny.study.annotiation.Benny;
+import com.benny.study.annotation.Benny;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.springframework.context.annotation.Configuration;
@@ -16,7 +16,7 @@ public class Audience {
 //	public void doSame(){
 //
 //	}
-	@Pointcut("@annotation(com.benny.study.annotiation.Benny)")
+	@Pointcut("@annotation(com.benny.study.annotation.Benny)")
 	public void doSame(){
 
 	}

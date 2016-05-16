@@ -1,8 +1,7 @@
 package com.benny.study.service.impl;
 
-import com.benny.study.annotiation.Benny;
+import com.benny.study.annotation.Benny;
 import com.benny.study.service.Some;
-import org.springframework.aop.support.AopUtils;
 import org.springframework.stereotype.Service;
 
 /**

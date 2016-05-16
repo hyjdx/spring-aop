@@ -1,4 +1,4 @@
-package com.benny.study.annotiation;
+package com.benny.study.annotation;
 
 import java.lang.annotation.*;
 

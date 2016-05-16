@@ -20,12 +20,14 @@ import org.springframework.test.context.web.WebAppConfiguration;
 @WebAppConfiguration
 //@Transactional
 @SpringApplicationConfiguration(Application.class)
-public class SomeImplTest {
+public class SomeImplTest
+{
     @Autowired
     private Some some;
 
     @Test
-    public void testDoSome() {
+    public void testDoSome()
+    {
         some.doSome();
         some.doSome1();
         ((SomeImpl)some).doSome2();
@@ -36,7 +38,8 @@ public class SomeImplTest {
     @Autowired
     private Play play;
     @Test
-    public void testPlay() {
+    public void testPlay()
+    {
        play.playService("hello");
         boolean flag = AopUtils.isCglibProxy(some);
         System.out.println("is cglibProxy ?: "+flag);
